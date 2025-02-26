@@ -3,20 +3,16 @@ body {background-color: #000000;
       font-family: Arial, Halvetica, sans-serif;
       margin-top: 0;}
 
-header {background-color: #691028;
-        border: 5px solid #ffcd54;
-        text-indent: 1em;}
+nav {background-color: #ffcd54;
+    font-family: Arial, Halvetica, sans-serif;}
+
+h1 {color: #ffffff;}
+
+h2 {color: #ffffff;}
     
 div	{margin: 5px;
      text-indent: 1em;
      margin-top:0;}		
-
-nav {background-color: #ffcd54;
-     text-indent: 1em;
-     text-shadow: 1px 1px 2px #330000;
-     padding-bottom: 5px;
-     text-align: center;
-     font-family: Arial, Halvetica, sans-serif;}
 
 nav a {text-decoration: none;
        color: #141015;}
