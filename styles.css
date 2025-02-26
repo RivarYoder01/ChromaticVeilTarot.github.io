@@ -9,12 +9,10 @@ nav {background-color: #000000;
 
 nav a {text-decoration: none;
       color: #ffffff;}
- 
- nav a:hover{color:rgb(56, 108, 116);}
- nav a:visited{color:#77a8d5;}
+nav a:hover{color: #9ab7d3;}
+nav a:visited{color:#77a8d5;}
 
 h1 {color: #ffffff;}
-
 h2 {color: #ffffff;}
     
 div	{margin: 5px;
