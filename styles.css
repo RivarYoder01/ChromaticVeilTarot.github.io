@@ -1,50 +1,29 @@
-body {	background-color: #000000;
-    background-image: linear-gradient(to bottom, #141015, #29202d);
-    background-size: 100%;
-    background-repeat: repeat-y;
-    color: #ffcd54; 
-    font-family: Arial, Halvetica, sans-serif;
-    margin-top: 0;
-    }
+body {background-color: #000000;
+      background-size: 100%;
+      font-family: Arial, Halvetica, sans-serif;
+      margin-top: 0;}
 
 header {background-color: #691028;
-    border: 5px solid #ffcd54;
-    text-indent: 1em;
-    }
+        border: 5px solid #ffcd54;
+        text-indent: 1em;}
     
-div	{	margin: 5px;
-    text-indent: 1em;
-    margin-top:0;
-    }		
+div	{margin: 5px;
+     text-indent: 1em;
+     margin-top:0;}		
 
+nav {background-color: #ffcd54;
+     text-indent: 1em;
+     text-shadow: 1px 1px 2px #330000;
+     padding-bottom: 5px;
+     text-align: center;
+     font-family: Arial, Halvetica, sans-serif;}
 
-nav { 	background-color: #ffcd54;
-    text-indent: 1em;
-    text-shadow: 1px 1px 2px #330000;
-    padding-bottom: 5px;
-    text-align: center;
-    font-family: Arial, Halvetica, sans-serif;
-    }
+nav a {text-decoration: none;
+       color: #141015;}
 
-nav a {	text-decoration: none;
-    color: #141015;
-    }
-
-nav a:hover{color:purple;}
+nav a:hover{color:rgb(66, 25, 66);}
 nav a:visited{color:#8e2f49;}
 
-footer{	background-color: #691028;
-    border: 5px solid #ffcd54;
-    text-indent: 1em;
-    }
-    
-#body { background-color: #691026;
-    background-image: linear-gradient(to bottom, #000000, #360814);
-    padding: 2em;
-    padding-top: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    min-width: 1000px; 
-    border: 5px solid #531626;		
-}
+footer {background-color: #691028;
+        border: 5px solid #ffcd54;
+        text-indent: 1em;}
