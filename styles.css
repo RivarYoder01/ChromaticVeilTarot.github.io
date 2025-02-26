@@ -3,7 +3,8 @@ body {background-color: #000000;
       font-family: Arial, Halvetica, sans-serif;
       margin-top: 0;}
 
-nav {background-color: #ffcd54;
+nav {background-color: #000000;
+    color: #ffffff;
     font-family: Arial, Halvetica, sans-serif;}
 
 h1 {color: #ffffff;}
