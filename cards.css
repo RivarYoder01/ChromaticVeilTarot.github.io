@@ -35,29 +35,10 @@ div#lightbox {
     overflow: hidden;        /* Hide images which overflow the box border */
  }
  
- /* Styles for the box containing the slide counter */
- div#lightbox div#lbCounter {
-    position: absolute;
-    z-index: 1;
-    width: 70px;
-    height: 26px;
-    line-height: 20px;
-    background-color: rgba(0,0,0,0.5);
-    border-radius: 4px;
-    text-align: center;
-    color: white;
-    top: 60px;
-    left: 0px;
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-    padding: 3px;
-    user-select: none;
- }
- 
- 
  /* Styles for images within the slideshow box */
  div#lbImages img {
     display: block;
-    width: 1000px;
+    width: auto;
     height: auto;
     margin-right: 13px;
     filter: opacity(0.8);

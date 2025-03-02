@@ -27,7 +27,6 @@ function createLightbox(){
 	for (let i = 0; i < imgCount; i++) {
 		let image = document.createElement("img");
 		image.src = imgFiles[i];
-		image.alt = imgCaptions[i];
 		image.onclick = createOverlay;
 		lbImages.appendChild(image);
 	}
