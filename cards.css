@@ -1,0 +1,11 @@
+#cardGallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 10px; /* spacing between images */
+  }
+
+  #cardGallery img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+  }
