@@ -28,7 +28,7 @@ div#lightbox {
  /* Styles for images within the slideshow box */
  div#lbImages img {
     display: block;
-    width: auto;
+    width: 100;
     height: auto;
     margin-right: 13px;
     filter: opacity(0.8);
