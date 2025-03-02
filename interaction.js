@@ -32,19 +32,6 @@ function createLightbox(){
 		lbImages.appendChild(image);
 	}
 	
-	// Function to move forward through image list 
-	function showNext() {
-		lbImages.appendChild(lbImages.firstElementChild);
-		(currentImg < imgCount) ? currentImg++ : currentImg = 1;
-		lbCounter.textContent = currentImg + " / " + imgCount;
-		}
-	
-	function showPrev() {
-		lbImages.insertBefore(lbImages.lastElementChild, lbImages.firstElementChild);
-		(currentImg > 1) ? currentImg-- : currentImg = imgCount;
-		lbCounter.textContent = currentImg + " / " + imgCount;
-	}
-	
 	function createOverlay() {
 		let overlay = document.createElement("div");
 		overlay.id = "lbOverlay";

@@ -25,39 +25,6 @@ div#lightbox {
     margin: 0 0 20px 0;
  }
  
- /* Styles for the left and right arrows to move through the slideshow */
- div#lightbox div#lbPrev, div#lightbox div#lbNext {
-    position: absolute;
-    width: 5%;
-    height: 30px;
-    color: #F3EF8F;
-    text-shadow: 2px 2px 2px black;
-    font-size: 20px;
-    font-weight: bold;
-    top: 118px;
-    line-height: 30px;
-    text-align: center;
-    z-index: 1;
-    background: rgba(0,0, 0, 0.0);
-    cursor: pointer;
-    user-select: none;
- }
- 
- /* Hovering styles for the left and right arrows */
- div#lightbox div#lbPrev:hover, div#lightbox div#lbNext:hover {
-    background: rgba(0,0,0,0.5);
- }
- 
- /* Horizontal position of the left arrow */
- div#lightbox div#lbPrev {
-    left: 0px;
- }
- 
- /* Horizontal position of the right arrow */
- div#lightbox div#lbNext {
-    right: 0px;
- }
- 
  /* Styles for the box containing slide images */
  div#lightbox div#lbImages {
     display: flex;
@@ -86,40 +53,11 @@ div#lightbox {
     user-select: none;
  }
  
- /* Styles for the play-pause button */
- div#lightbox div#lbPlay {
-    position: absolute;
-    top: 250px;
-    left: 47.5%;
-    text-align: center;
-    font-size: 2.2em;
-    width: 40px;
-    margin: 0 auto;
-    text-shadow: 3px 3px 20px black;
-    cursor: pointer;
-    user-select: none;
-    filter: grayscale(1);
- }
- 
- /* Hovering styles for the play-pause button */
- div#lightbox div#lbPlay:hover {
-    position: absolute;
-    top: 250px;
-    left: 47.5%;
-    text-align: center;
-    font-size: 2.2em;
-    width: 40px;
-    margin: 0 auto;
-    text-shadow: 3px 3px 20px black;
-    cursor: pointer;
-    user-select: none;
-    filter: grayscale(0.6) hue-rotate(120deg);
- }
  
  /* Styles for images within the slideshow box */
  div#lbImages img {
     display: block;
-    width: 230px;
+    width: 1000px;
     height: auto;
     margin-right: 13px;
     filter: opacity(0.8);
