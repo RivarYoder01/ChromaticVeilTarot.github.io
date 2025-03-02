@@ -1,11 +1,19 @@
-const imageGrid = document.getElementById('imageGrid');
+"use strict";
+/*    ChromaticVeilTarot.github.io
+
+      Image List
+
+      Filename:cardImages.js
+*/
+
+const imageGrid = document.getElementById('cardGallery');
 const imageUrls = [
-  'image1.jpg',
-  'image2.jpg',
-  'image3.jpg',
-  'image4.jpg',
-  'image5.jpg',
-  'image6.jpg',
+  '0Fool.png',
+  '1Magician.png',
+  '2HighPriestess.png',
+  '3Empress.png',
+  '4Emperor.png',
+  '5Hierophant.png',
 ];
 
 imageUrls.forEach(url => {
