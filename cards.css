@@ -13,8 +13,6 @@
 /* Styles for the box containing the slideshow and tools */
 div#lightbox {
     position: relative;
-    width: 960px;
-    height: 170px;
     margin: 20px auto;
  }
  
