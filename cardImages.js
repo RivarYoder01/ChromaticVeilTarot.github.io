@@ -6,8 +6,9 @@
       Filename:cardImages.js
 */
 
-const imageGrid = document.getElementById('cardGallery');
-const imageUrls = [
+let imageGrid = document.getElementById('imageGrid');
+
+let imageUrls = [
   '0Fool.png',
   '1Magician.png',
   '2HighPriestess.png',
