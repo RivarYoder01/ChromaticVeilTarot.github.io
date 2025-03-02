@@ -1,24 +1,25 @@
 "use strict";
-/*    ChromaticVeilTarot.github.io
+/*    JavaScript 7th Edition
+      Chapter 5
+      Chapter Case
 
       Image List
 
-      Filename:cardImages.js
+      Filename:lightbox_data.js
 */
 
-let imageGrid = document.getElementById('imageGrid');
+// Title of the slideshow
+let lightboxTitle = "My Western Vacation";
 
-let imageUrls = [
-  '0Fool.png',
-  '1Magician.png',
-  '2HighPriestess.png',
-  '3Empress.png',
-  '4Emperor.png',
-  '5Hierophant.png',
-];
+// Names of the image files shown in the slideshow
+let imgFiles = 
+    ['0Fool.png',
+    '1Magician.png',
+    '2HighPriestess.png',
+    '3Empress.png',
+    '4Emperor.png',
+    '5Hierophant.png',
+  ];
 
-imageUrls.forEach(url => {
-  const img = document.createElement('img');
-  img.src = url;
-  imageGrid.appendChild(img);
-});
+// Count of images in the slideshow
+let imgCount = imgFiles.length;
