@@ -16,7 +16,7 @@ let lightboxTitle = "My Western Vacation";
 // Names of the image files shown in the slideshow
 let imgFiles = ["0Fool.png", "1Magician.png", "2HighPriestess.png", "3Empress.png",
                 "4Emperor.png", "5Hierophant.png", "6Lovers.png", "7Chariot.png", 
-				"8strength.png", "9Hermit.png", "10WheelOfFortune.png", "11Justice.png",
+				"8Strength.png", "9Hermit.png", "10WheelOfFortune.png", "11Justice.png",
 				"12HangedMan.png", "13Death.png", "14Temperance.png", "15Devil.png",
 				"16Tower.png", "17Star.png", "18Moon.png", "19Sun.png", "20Judgement.png",
 				"21World.png", "Wands1.png", "Wands2.png", "Wands3.png","Wands4.png", 
