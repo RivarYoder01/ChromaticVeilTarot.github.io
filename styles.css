@@ -56,7 +56,8 @@ body {
 nav {
 	text-align: center;
 	font-size: 1.2em;
-    font-family: "Ink Free", "Times New Roman", "serif";
+  font-family: "Ink Free", "Times New Roman", "serif";
+  text-wrap: nowrap;
 	padding: 10px 10px;}
 
 nav a {
