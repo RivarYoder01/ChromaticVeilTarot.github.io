@@ -13,13 +13,13 @@
 window.addEventListener("load", createGallery);
 
 function createGallery(){
-	// Lightbox Container
+	// Gallery Container
 	let galleryBox = document.getElementById("galleryBox");
 	
-	// Parts of the lightBox
+	// Parts of the galleryBox
 	let gbImages = document.createElement("div");
 	
-	// Design the lightbox images container
+	// Design the galleryBox images container
 	galleryBox.appendChild(gbImages);
 	gbImages.id = "gbImages";
 	

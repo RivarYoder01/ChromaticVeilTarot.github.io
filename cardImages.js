@@ -10,10 +10,10 @@
     Filename: cardImages.js
  */
 
-// Title of the slideshow
-let lightboxTitle = "My Western Vacation";
+// Title of the gallery
+let lightboxTitle = "Chromatic Veil Tarot";
 
-// Names of the image files shown in the slideshow
+// Names of the image files shown in the gallery
 let imgFiles = ["0Fool.png", "1Magician.png", "2HighPriestess.png", "3Empress.png",
                 "4Emperor.png", "5Hierophant.png", "6Lovers.png", "7Chariot.png", 
 				"8Strength.png", "9Hermit.png", "10WheelOfFortune.png", "11Justice.png",
@@ -33,6 +33,6 @@ let imgFiles = ["0Fool.png", "1Magician.png", "2HighPriestess.png", "3Empress.pn
 				"Penticals13.png", "Penticals14.png"]
 
 
-// Count of images in the slideshow
+// Count of images in the gallery
 let imgCount = imgFiles.length;
 
